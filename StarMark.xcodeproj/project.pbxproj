@@ -15,6 +15,7 @@
 		358261C2205921CF00EF2F27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 358261C1205921CF00EF2F27 /* main.m */; };
 		358261CC205921CF00EF2F27 /* StarMarkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 358261CB205921CF00EF2F27 /* StarMarkTests.m */; };
 		358261D7205921CF00EF2F27 /* StarMarkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 358261D6205921CF00EF2F27 /* StarMarkUITests.m */; };
+		358261E72059221000EF2F27 /* BBSStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 358261E62059221000EF2F27 /* BBSStarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		358261D2205921CF00EF2F27 /* StarMarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarMarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		358261D6205921CF00EF2F27 /* StarMarkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarMarkUITests.m; sourceTree = "<group>"; };
 		358261D8205921CF00EF2F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		358261E52059221000EF2F27 /* BBSStarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBSStarView.h; sourceTree = "<group>"; };
+		358261E62059221000EF2F27 /* BBSStarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBSStarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		358261B1205921CF00EF2F27 /* StarMark */ = {
 			isa = PBXGroup;
 			children = (
+				358261E4205921F100EF2F27 /* StarView */,
 				358261B2205921CF00EF2F27 /* AppDelegate.h */,
 				358261B3205921CF00EF2F27 /* AppDelegate.m */,
 				358261B5205921CF00EF2F27 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				358261D8205921CF00EF2F27 /* Info.plist */,
 			);
 			path = StarMarkUITests;
+			sourceTree = "<group>";
+		};
+		358261E4205921F100EF2F27 /* StarView */ = {
+			isa = PBXGroup;
+			children = (
+				358261E52059221000EF2F27 /* BBSStarView.h */,
+				358261E62059221000EF2F27 /* BBSStarView.m */,
+			);
+			path = StarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +207,7 @@
 		358261A7205921CF00EF2F27 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BBS;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "李子栋";
 				TargetAttributes = {
@@ -265,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				358261E72059221000EF2F27 /* BBSStarView.m in Sources */,
 				358261B7205921CF00EF2F27 /* ViewController.m in Sources */,
 				358261C2205921CF00EF2F27 /* main.m in Sources */,
 				358261B4205921CF00EF2F27 /* AppDelegate.m in Sources */,
